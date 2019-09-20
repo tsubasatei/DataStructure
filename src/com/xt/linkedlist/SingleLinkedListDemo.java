@@ -24,7 +24,7 @@ public class SingleLinkedListDemo {
         list.add(node4);
         */
 
-        /*HeroNode node1 = new HeroNode(1, "孙悟空", "老孙");
+        HeroNode node1 = new HeroNode(1, "孙悟空", "老孙");
         HeroNode node4 = new HeroNode(4, "三太子", "小白龙");
         HeroNode node2 = new HeroNode(2, "猪八戒", "老猪");
         HeroNode node3 = new HeroNode(3, "沙和尚", "老沙");
@@ -62,24 +62,24 @@ public class SingleLinkedListDemo {
 
         int index = 4;
         HeroNode heroNode = findLastIndexNode(list.getHead(), index);
-        System.out.println("查询单链表中倒数第" + index + "个节点：" + heroNode);*/
+        System.out.println("查询单链表中倒数第" + index + "个节点：" + heroNode);
 
-        HeroNode node1 = new HeroNode(1, "1A", "a");
-        HeroNode node2 = new HeroNode(4, "4D", "d");
-        HeroNode node3 = new HeroNode(7, "7G", "g");
+        HeroNode node11 = new HeroNode(1, "1A", "a");
+        HeroNode node12 = new HeroNode(4, "4D", "d");
+        HeroNode node13 = new HeroNode(7, "7G", "g");
 
-        HeroNode node4 = new HeroNode(2, "2B", "b");
-        HeroNode node5 = new HeroNode(5, "5e", "e");
-        HeroNode node6 = new HeroNode(8, "8h", "h");
+        HeroNode node14 = new HeroNode(2, "2B", "b");
+        HeroNode node15 = new HeroNode(5, "5e", "e");
+        HeroNode node16 = new HeroNode(8, "8h", "h");
 
         SingleLinkedList list1 = new SingleLinkedList();
         SingleLinkedList list2 = new SingleLinkedList();
-        list1.addByOrder(node1);
-        list1.addByOrder(node2);
-        list1.addByOrder(node3);
-        list2.addByOrder(node4);
-        list2.addByOrder(node5);
-        list2.addByOrder(node6);
+        list1.addByOrder(node11);
+        list1.addByOrder(node12);
+        list1.addByOrder(node13);
+        list2.addByOrder(node14);
+        list2.addByOrder(node15);
+        list2.addByOrder(node16);
 
         System.out.println("链表1如下：");
         list1.list();
